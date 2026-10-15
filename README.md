@@ -8,14 +8,14 @@ This project was built as part of self-directed specialisation in clinical data 
 ## TL;DR
 
 - **What this is:** A reproducible PyTorch + Docker pipeline for training a simple CNN on the Kaggle dataset [`hayder17/breast-cancer-detection`](https://www.kaggle.com/datasets/hayder17/breast-cancer-detection).
-- **What I found:** During training I observed inconsistent and likely mislabelled samples in the dataset, which set a hard ceiling on achievable model performance regardless of architecture or training choices.
+- **What I found:** During training, I observed inconsistent and likely mislabelled samples in the dataset, which set a hard ceiling on achievable model performance regardless of architecture or training choices.
 - **Why I'm publishing it that way:** In clinical data and MedTech contexts, recognising that a dataset is unreliable is more important than producing a polished accuracy number on top of unreliable ground truth.
 
 --- 
 
 ## Why this project exists
 
-Coming from a Master's in Biomedical Engineering and 2.5 years as a Data Analyst (Python, SQL), I wanted hands-on experience with the full lifecycle of a medical-imaging machine-learning pipeline: dataset acquisition, preprocessing, training, evaluation, model serialisation, inference, and containerisation. I picked breast cancer imaging because it sits at a realistic intersection of clinical data and Software-as-a-Medical-Device (SaMD) workflows.
+Coming from a Master's in Biomedical Engineering, I wanted hands-on experience with the full lifecycle of a medical-imaging machine-learning pipeline: dataset acquisition, preprocessing, training, evaluation, model serialisation, inference, and containerisation. I picked breast cancer imaging because it sits at a realistic intersection of clinical data and Software-as-a-Medical-Device (SaMD) workflows.
 
 The honest experience of doing this end-to-end, including discovering that the public dataset I'd chosen was not accurate enough to draw any clinical conclusions from — turned out to be the most valuable part of the project.
 
